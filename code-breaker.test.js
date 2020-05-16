@@ -1,7 +1,7 @@
-const codeBreaker = require('./code-breaker'); //Arrange
+const CodeBreaker = require('./code-breaker'); //Arrange
 
 describe('Basics', () => {
-    console.log(codeBreaker.secret);
+    const codeBreaker = new CodeBreaker();
 
     codeBreaker.setSecret('1234');
 
